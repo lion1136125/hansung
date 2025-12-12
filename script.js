@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
 
     // ⭐ Google Apps Script로 백그라운드 전송 (CORS 완전 차단 모드)
-    fetch("https://script.google.com/macros/s/AKfycbxiaP5W6v39DWpiDverIRicLtlRd9AZEu4NHWD9_ZlwoLbOwWP2mjeSpJzLLhzZsgEzfg/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbykA_qjhav19RjEjF-7_IWGcA34FsV0PEB40oT52OKumSzBOuVJoSNqHyGatVtgVBkK-w/exec", {
       method: "POST",
       mode: "no-cors",   // ⛔ 절대 수정 금지 — CORS 완전 무력화
       body: JSON.stringify({
